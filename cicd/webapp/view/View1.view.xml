@@ -1,0 +1,9 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="cicd.controller.View1" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <sap.ui.core:Icon src="sap-icon://doctor" size="2em" xmlns:sap.ui.core="sap.ui.core" id="icon0"/>
+            <Text xmlns="sap.m" text="Welcome to Techarch team" id="text0"/>
+            <ProgressIndicator xmlns="sap.m" percentValue="30" id="indicator0"/>
+        </content>
+    </Page>
+</mvc:View>
